@@ -1,0 +1,41 @@
+1. Inšpirácia z fyziky
+Simulované žíhanie vychádza z procesu žíhania kovov, pri ktorom sa kov najprv zahreje na vysokú teplotu a potom sa pomaly ochladzuje. Tento proces umožní atómom nájsť usporiadanie s najnižšou energiou (najstabilnejší stav).
+
+2. Prenesenie myšlienky do výpočtov
+Podobný princíp možno použiť aj na hľadanie riešení matematických alebo optimalizačných problémov. V nich nehľadáme najnižšiu energiu, ale napríklad najkratšiu trasu, najnižšie náklady či najlepší rozvrh.
+
+3. Cieľ algoritmu
+Cieľom je nájsť také riešenie, ktoré minimalizuje (alebo maximalizuje) určitú cieľovú funkciu – teda nájsť „globálne optimum“.
+
+4. Náhodný začiatok
+Na začiatku sa algoritmus jednoducho začne s náhodne zvoleným stavom. To mu umožní neupnúť sa hneď na konkrétnu oblasť riešení, ale skúmať celý priestor.
+
+5. Malé zmeny riešenia
+V každom kroku sa aktuálne riešenie mierne pozmení – napríklad sa vymenia dve položky, presunie prvok, alebo sa zmení jeden parameter. Týmto spôsobom sa hľadá „susedné“ riešenie, ktoré môže byť lepšie alebo horšie.
+
+6. Vyhodnotenie zmeny
+Porovná sa, ako sa zmenila hodnota cieľovej funkcie. Ak sa riešenie zlepšilo (napríklad sa trasa skrátila), určite sa prijme. Ak sa zhoršilo, algoritmus sa ešte nerozhodne hneď ho odmietnuť.
+
+7. Prijatie horšieho riešenia
+Horšie riešenie sa môže prijať s určitou pravdepodobnosťou, ktorá závisí od veľkosti zhoršenia a aktuálnej teploty. Ak je teplota vysoká, prijíma sa aj viac riskantných zhoršení. Ak je nízka, algoritmus je opatrnejší.
+
+8. Pravdepodobnostné pravidlo
+Keď sa objaví horšie riešenie, algoritmus sa nerozhoduje úplne náhodne, ale má určitú pravdepodobnosť, že ho aj tak prijme. Táto pravdepodobnosť je tým vyššia, čím je horšie riešenie len o trochu slabšie než predchádzajúce a čím je teplota ešte vysoká.
+
+9. Teplota ako kontrolný prvok
+Teplota riadi, ako veľmi sa algoritmus správa „dobrodružne“. Na začiatku, keď je vysoká, skúša aj zlé kroky, aby preskúmal celý priestor riešení. Postupne, keď teplota klesá, správanie sa stáva konzervatívnejším.
+
+10. Ochladzovací plán (cooling schedule)
+Teplota sa znižuje podľa určitého vzorca – napríklad každý cyklus sa vynásobí koeficientom menším ako 1. Dôležité je, aby ochladzovanie nebolo príliš rýchle – inak systém „zamrzne“ v suboptimálnom riešení.
+
+11. Hľadanie globálneho minima
+Vďaka tomu, že algoritmus občas prijme aj zhoršenie, dokáže „preskočiť“ malé kopčeky (lokálne minimá) a dostať sa do hlbších údolí, kde sa skrýva globálne minimum.
+
+12. Postupné ustálenie
+Ako teplota klesá, systém sa ustáli – prijíma už len lepšie riešenia a pohyb v priestore riešení sa spomaľuje. Nakoniec sa proces zastaví, keď už teplota alebo zlepšenie klesnú pod určitú hranicu.
+
+13. Konečné riešenie
+Výsledkom je riešenie, ktoré je často veľmi blízke globálnemu optimu. Nie je garantované, že je úplne najlepšie, ale pri dobre zvolenom pláne chladenia býva kvalita riešenia výborná.
+
+14. Význam a využitie
+Simulované žíhanie sa dnes používa v mnohých oblastiach – od plánovania trás, rozvrhovania výroby, optimalizácie obvodov až po strojové učenie. Jeho sila spočíva v kombinácii náhody a postupnej kontroly, ktorá napodobňuje múdrosť prírody pri hľadaní rovnováhy.

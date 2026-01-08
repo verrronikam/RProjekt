@@ -1,0 +1,23 @@
+1. Príprava hry
+Každý hráč dostane vlastný balíček s pevne daným počtom kariet. Hracia plocha zostáva prázdna a pripravená na umiestňovanie tvarov kariet.
+
+2. Úvodná ruka
+Obaja hráči si doberú prvé tri karty zo svojho balíčka. Tieto karty predstavujú ich základné možnosti na prvé rozhodnutia.
+
+3. Začiatok striedavých ťahov
+Hráči sa začnú striedať v ťahoch. V každom ťahu je možné zahrať obmedzený počet kariet, podľa toho, akú stratégiu hráč zvolí.
+
+4.Umiesťovanie tvarov kariet na hraciu plochu
+Počas hry hráči ukladajú tvary kariet na hraciu mriežku. Tvar alebo spôsob umiestnenia karty určuje, ktoré časti hracieho priestoru môže hráč získať pod kontrolu.
+
+5. Vznik konfliktov na ploche
+Keď tvar karty hráča zasiahne oblasť ovplyvnenú tvarom karty súpera, dôjde k vyhodnoteniu výsledku podľa vopred definovaných pravidiel porovnávania. Silnejšia karta získa dané pole.
+
+6. Postupné míňanie balíčkov
+Po každom ťahu si hráč dopĺňa ruku späť na tri karty, až kým neminie celý svoj balíček. S postupom hry sa možnosti hráčov zužujú a rozhodnutia sú čoraz strategickejšie.
+
+7. Záverečná fáza hry
+Keď obaja hráči spotrebujú svoje balíčky, pokračujú, kým nevyčerpajú posledné možnosti na ruke. Hracia plocha zostáva zaplnená ich tvarmi kariet v rôznych konfiguráciách.
+
+8. Vyhodnotenie výsledku
+Po skončení hry sa spočíta počet políčok, ktoré jednotliví hráči ovládli. Víťazom sa stáva ten, kto získal väčšiu časť hracej plochy alebo dosiahol vyššie skóre podľa doplnkových pravidiel.
